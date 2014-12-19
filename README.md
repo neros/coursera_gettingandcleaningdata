@@ -106,19 +106,20 @@ This study calculates the mean of variables specified in the Human Activity Reco
 
 The data dictionary for this table is as follows.
 
-Variables 3-68 are the calculated mean for given variabe as defined in the Human Activity Recognition Using Smartphones Dataset grouped by subject id, by activity label
+
+###Variables 3-68 are the calculated mean for given variable as defined in the Human Activity Recognition Using Smartphones Dataset grouped by subject id, by activity label
 
 ##DATA DICTIONARY
 	Col	Variable Name					Type 	Values				Units
 	=====================================================================
 	1	subject_id						numeric	0..30				Activity Participant ID
 	2	activity_label					string	Defined Category:	Activity Category
-	.									LAYING				Catigorical Unit
-	.									SITTING				Catigorical Unit
-	.									STANDING			Catigorical Unit
-	.									WALKING				Catigorical Unit
-	.									WALKING_UPSTAIRS	Catigorical Unit
-	.									WALKING_DOWNSTAIRS	Catigorical Unit
+	.									LAYING						Catigorical Unit
+	.									SITTING						Catigorical Unit
+	.									STANDING					Catigorical Unit
+	.									WALKING						Catigorical Unit
+	.									WALKING_UPSTAIRS			Catigorical Unit
+	.									WALKING_DOWNSTAIRS			Catigorical Unit
 	3	1-tBodyAcc-mean()-X				numeric	-1.000000..1.000000	Gravitational Units (g)
 	4	2-tBodyAcc-mean()-Y				numeric	-1.000000..1.000000	Gravitational Units (g)
 	5	3-tBodyAcc-mean()-Z				numeric	-1.000000..1.000000	Gravitational Units (g)
