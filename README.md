@@ -108,7 +108,7 @@ The data dictionary for this table is as follows.
 
 Variables 3-68 are the calculated mean for given variabe as defined in the Human Activity Recognition Using Smartphones Dataset grouped by subject id, by activity label
 
-Col	Variable Name					Type 	Values				Units
+````Col	Variable Name					Type 	Values				Units
 =====================================================================
 1	subject_id						numeric	0..30				Activity Participant ID
 2	activity_label					string	Defined Category:	Activity Category
@@ -184,3 +184,4 @@ Col	Variable Name					Type 	Values				Units
 66	530-fBodyBodyGyroMag-std()		numeric	-1.000000..1.000000	Angular Velocity (radians/second)
 67	542-fBodyBodyGyroJerkMag-mean()	numeric	-1.000000..1.000000	Angular Velocity (radians/second)
 68	543-fBodyBodyGyroJerkMag-std()	numeric	-1.000000..1.000000	Angular Velocity (radians/second)
+````
