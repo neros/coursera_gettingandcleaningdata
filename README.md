@@ -1,23 +1,25 @@
 #################################################################
-###Summary
+#Summary
 #################################################################
 
 The script returns a data.table and saves this table to disk according to the specifications of the Getting and Cleaning
 Data project course assignment.  The final output is a file called "tidy_output.txt".  A description of the output variables
 are discussed in "codebook_for_tidy_output.txt" and for convenience, duplicated below in this readme file.
 
-Input data for this analysis comes from the Samsung activity study:
-==================================================================
+If viewing in github, try reading in "RAW" mode to preserve formatting; CODEBOOK formatting is best viewed in .pdf format
+
+###Input data for this analysis comes from the Samsung activity study:
+
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-==================================================================
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==================================================================
+
 Additional detail on the study data parameters may be found at this URL: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -34,7 +36,7 @@ Total data table dimensions are 180 rows by 68 columns.
 Specific steps to perform this analysis are completed using the run_analysis.R script, which is further discussed below
 
 #################################################################
-###Script: run_analysis.R
+#Script: run_analysis.R
 #################################################################
 The script defines 4 functions:
 (1) setup_files() : Retrieves .zip archive, saves to disk and extracts
@@ -78,23 +80,23 @@ Specific actions performed in detail, by script line number are as follows:
 	* Line 150    : Function completes.
 
 #################################################################
-Data Dictionary For: tidy_output.txt
+#Data Dictionary For: tidy_output.txt
 #################################################################
 
 The data file tidy_output.txt defines a space-delimited data table of 180 rows by 68 columns.  
 
-Input data for this analysis comes from the Samsung activity study:
-==================================================================
+###Input data for this analysis comes from the Samsung activity study:
+
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-==================================================================
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==================================================================
+
 Additional detail on the study data parameters may be found at this URL: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -107,14 +109,14 @@ The data dictionary for this table is as follows.
 
 Col	Variable Name					Type 	Values				Units				 				Description
 ===============================================================================================================
-1	subject_id						numeric	0..30				Activity Participant 				ID	A unique ID number corresponding to the subject engaging in the activity measurements
+1	subject_id						numeric	0..30				Activity Participant 				A unique ID number corresponding to the subject engaging in the activity measurements
 2	activity_label					string	Defined Category:	Activity Category	 				The categories of activities subjects engaged during activity measurement
-											LAYING				Catigorical Unit	
-											SITTING				Catigorical Unit	
-											STANDING			Catigorical Unit	
-											WALKING				Catigorical Unit	
-											WALKING_UPSTAIRS	Catigorical Unit	
-											WALKING_DOWNSTAIRS	Catigorical Unit	
+											LAYING				Catigorical Unit					
+											SITTING				Catigorical Unit					
+											STANDING			Catigorical Unit					
+											WALKING				Catigorical Unit					
+											WALKING_UPSTAIRS	Catigorical Unit					
+											WALKING_DOWNSTAIRS	Catigorical Unit					
 3	1-tBodyAcc-mean()-X				numeric	-1.000000..1.000000	Gravitational Units (g)				The calculated mean for given subject and activity of variable "tBodyAcc-mean()-X" in the Human Activity Recognition Using Smartphones Dataset
 4	2-tBodyAcc-mean()-Y				numeric	-1.000000..1.000000	Gravitational Units (g)				The calculated mean for given subject and activity of variable "tBodyAcc-mean()-Y" in the Human Activity Recognition Using Smartphones Dataset
 5	3-tBodyAcc-mean()-Z				numeric	-1.000000..1.000000	Gravitational Units (g)				The calculated mean for given subject and activity of variable "tBodyAcc-mean()-Z" in the Human Activity Recognition Using Smartphones Dataset
