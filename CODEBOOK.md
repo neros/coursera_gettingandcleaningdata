@@ -34,12 +34,12 @@ The data dictionary for this table is as follows.
 	=====================================================================
 	1	subject_id						numeric	0..30				Activity Participant ID
 	2	activity_label					string	Defined Category:	Activity Category
-	.									LAYING						Catigorical Unit
-	.									SITTING						Catigorical Unit
-	.									STANDING					Catigorical Unit
-	.									WALKING						Catigorical Unit
-	.									WALKING_UPSTAIRS			Catigorical Unit
-	.									WALKING_DOWNSTAIRS			Catigorical Unit
+	.											LAYING				Catigorical Unit
+	.											SITTING				Catigorical Unit
+	.											STANDING			Catigorical Unit
+	.											WALKING				Catigorical Unit
+	.											WALKING_UPSTAIRS	Catigorical Unit
+	.											WALKING_DOWNSTAIRS	Catigorical Unit
 	3	1-tBodyAcc-mean()-X				numeric	-1.000000..1.000000	Gravitational Units (g)
 	4	2-tBodyAcc-mean()-Y				numeric	-1.000000..1.000000	Gravitational Units (g)
 	5	3-tBodyAcc-mean()-Z				numeric	-1.000000..1.000000	Gravitational Units (g)
