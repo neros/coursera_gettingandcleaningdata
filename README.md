@@ -4,7 +4,7 @@
 
 The script returns a data.table and saves this table to disk according to the specifications of the Getting and Cleaning
 Data project course assignment.  The final output is a file called "tidy_output.txt".  A description of the output variables
-are discussed in "codebook_for_tidy_output.txt" and for convenience, duplicated below in this readme file.
+are discussed in CODEBOOK.md and for convenience, duplicated below in this readme file.
 
 If viewing in github, try reading in "RAW" for README.md and CODEBOOK.md files to improve formatting and readability
 
