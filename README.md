@@ -6,8 +6,6 @@ The script returns a data.table and saves this table to disk according to the sp
 Data project course assignment.  The final output is a file called "tidy_output.txt".  A description of the output variables
 are discussed in CODEBOOK.md and for convenience, duplicated below in this readme file.
 
-If viewing in github, try reading in "RAW" for README.md and CODEBOOK.md files to improve formatting and readability
-
 ###Input data for this analysis comes from the Samsung activity study:
 
 Human Activity Recognition Using Smartphones Dataset
